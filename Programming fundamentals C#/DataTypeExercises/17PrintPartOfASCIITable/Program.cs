@@ -17,7 +17,7 @@ namespace _17PrintPartOfASCIITable
             for (int i = firstChar; i <= lastChar; i++)
             {
                 symbols = Convert.ToChar(i);
-                Console.Write(symbols);
+                Console.Write($"{symbols} ");
             }
             Console.WriteLine();
         }

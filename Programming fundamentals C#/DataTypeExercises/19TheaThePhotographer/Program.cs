@@ -10,10 +10,10 @@ namespace _19TheaThePhotographer
     {
         static void Main(string[] args)
         {
-            int pictures = int.Parse(Console.ReadLine());
-            int timePerPic = int.Parse(Console.ReadLine());
-            int filterFactor = int.Parse(Console.ReadLine());
-            int uploadTime = int.Parse(Console.ReadLine());
+            long pictures = long.Parse(Console.ReadLine());
+            long timePerPic = long.Parse(Console.ReadLine());
+            long filterFactor = long.Parse(Console.ReadLine());
+            long uploadTime = long.Parse(Console.ReadLine());
             double goodPics = Math.Ceiling(pictures * filterFactor / 100.0);
 
             long seconds = (pictures * timePerPic) + (long)(goodPics * uploadTime);
