@@ -26,7 +26,7 @@ namespace _15FastPrimeCheckerRefactor
                         break;
                         }
                     }
-                Console.WriteLine($"{number} is prime -> {checker}");
+                Console.WriteLine($"{number} -> {checker}");
             }
         }
     }

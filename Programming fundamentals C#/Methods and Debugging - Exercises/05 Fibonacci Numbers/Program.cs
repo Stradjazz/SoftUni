@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _05_Fibonacci_Numbers
 {
-    class Program
+    class FibonacciNumbers
     {
         static void Main(string[] args)
         {

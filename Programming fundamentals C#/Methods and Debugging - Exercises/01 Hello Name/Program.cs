@@ -6,20 +6,16 @@ using System.Threading.Tasks;
 
 namespace _01_Hello_Name
 {
-    class Program
+    class HelloName
     {
         static void Main(string[] args)
         {
             string name = Console.ReadLine();
-            
-            Console.WriteLine(PrintTheName(name));
+            PrintTheName(name); 
         }
-        static string PrintTheName(string name)
+        static void PrintTheName(string name)
         {
-            
-            string greeting = $"Hello, {name}!";
-            return greeting;
-            
+            Console.WriteLine($"Hello, {name}!");
         }
     }
 }

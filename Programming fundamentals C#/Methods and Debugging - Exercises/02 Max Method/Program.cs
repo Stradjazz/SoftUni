@@ -15,7 +15,7 @@ namespace _02_Max_Method
             int inputC = int.Parse(Console.ReadLine());
 
             int tempMax = GetMax(inputA, inputB);
-            int max = Math.Max(tempMax, inputC);
+            int max = GetMax(tempMax, inputC);
 
             Console.WriteLine(max);
         }
