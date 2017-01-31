@@ -12,7 +12,7 @@ namespace _16_Instruction_Set
         {
             string opCode = string.Empty;
             decimal result = 0;
-            List<decimal> resultsInstructions = new List<decimal>();
+            List<decimal> output = new List<decimal>();
             while (opCode != "END")
             {
                 if (opCode != string.Empty)
@@ -47,11 +47,11 @@ namespace _16_Instruction_Set
                                 break;
                             }
                     }
-                    resultsInstructions.Add(result);
+                    output.Add(result);
                 }
                 opCode = Console.ReadLine();
             }
-            foreach (var item in resultsInstructions)
+            foreach (var item in output)
             {
                 Console.WriteLine(item);
             }
