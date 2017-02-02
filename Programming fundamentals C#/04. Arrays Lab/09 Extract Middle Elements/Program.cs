@@ -8,6 +8,12 @@ namespace _09_Extract_Middle_Elements
 {
     class ExtractMiddleElements
     {
+        /*Write a method to extract the middle 1, 2 or 3 elements from array of n integers and print them.
+            n = 1 -> 1 element
+            even n -> 2 elements
+            odd n -> 3 elements
+        Create a program that reads an array of integers (space separated values) and prints the middle elements in the format shown in the examples.*/
+
         static void Main(string[] args)
         {
             int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();

@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 Sum Arrays", "07 Sum Arr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 Condense Array To Number", "08 Condense Array To Number\08 Condense Array To Number.csproj", "{2AFDE83C-C651-4622-AB68-912FC2B12C4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 Extract Middle Elements", "09 Extract Middle Numbers\09 Extract Middle Elements.csproj", "{7935D59E-2B9C-4F80-8A11-02CBEEBD67F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 Extract Middle Elements", "09 Extract Middle Elements\09 Extract Middle Elements.csproj", "{7935D59E-2B9C-4F80-8A11-02CBEEBD67F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
