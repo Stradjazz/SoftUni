@@ -17,7 +17,7 @@ The course covers source control systems, **Git** and **GitHub** for team collab
 6. <a href="https://github.com/Stradjazz/SoftUni/tree/master/Programming%20fundamentals%20C%23/03.%20Methods%20and%20Debugging%20-%20Exercises" > Methods and Debugging- Exercises</a>
 7. <a href="https://github.com/Stradjazz/SoftUni/tree/master/Programming%20fundamentals%20C%23/04.%20Arrays%20Lab"> Arrays - Lab </a>
 8. <a href="https://github.com/Stradjazz/SoftUni/tree/master/Programming%20fundamentals%20C%23/04.%20Arrays%20-%20Exercises"> Arrays - Exercises </a>
-9. <a href=""> Lists - Lab </a>
+9. <a href="https://github.com/Stradjazz/SoftUni/tree/master/Programming%20fundamentals%20C%23/05%20Lists%20-%20Lab"> Lists - Lab </a>
 10. <a href=""> Lists - Exercises </a>
 11. <a href=""> Dictionaries, Lambda and LINQ - Lab </a>
 12. <a href=""> Dictionaries, Lambda and LINQ - Exercises </a>
