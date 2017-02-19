@@ -110,12 +110,14 @@ namespace _04.Phone
         }
         public static long DifferenceOfDigits(string number)
         {
-            int[] digits = number.Split().Select(int.Parse).ToArray();
-            long difference = digits[0];
+            char[] digits = number.ToCharArray();
+            long difference = (long)char.GetNumericValue(digits[0]); 
             for (int i = 1; i < digits.Length; i++)
             {
+                char.GetNumericValue(digits[i]);
                 difference -= digits[i];
-            }
+                }
+            difference = Math.Abs(difference);
             return difference;
         }
         public static string CalculatingDuration(long sumOfDigits)
