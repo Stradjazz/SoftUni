@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Room", "Class Room\Class Room.csproj", "{E7205440-1BDA-4FD9-94CC-30D50DF0FFF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Green Market", "Green Market\Green Market.csproj", "{18FDC035-4E7E-4CC4-9585-76CF8170B176}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terracotta", "Terracotta\Terracotta.csproj", "{2C27181D-9304-4F2E-B1C5-BEAFBFF5B850}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7205440-1BDA-4FD9-94CC-30D50DF0FFF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7205440-1BDA-4FD9-94CC-30D50DF0FFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7205440-1BDA-4FD9-94CC-30D50DF0FFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7205440-1BDA-4FD9-94CC-30D50DF0FFF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18FDC035-4E7E-4CC4-9585-76CF8170B176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FDC035-4E7E-4CC4-9585-76CF8170B176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FDC035-4E7E-4CC4-9585-76CF8170B176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18FDC035-4E7E-4CC4-9585-76CF8170B176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C27181D-9304-4F2E-B1C5-BEAFBFF5B850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C27181D-9304-4F2E-B1C5-BEAFBFF5B850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C27181D-9304-4F2E-B1C5-BEAFBFF5B850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C27181D-9304-4F2E-B1C5-BEAFBFF5B850}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
