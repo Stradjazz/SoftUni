@@ -18,26 +18,66 @@ namespace _03.Increasing_Crisis
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-            var sequence = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
+
+            var list = new List<int>();
 
             for (int i = 0; i < n; i++)
             {
-                var input = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
-                if (sequence.Count == 0)
+                var sequence = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
+                int rightMostElement = 0;
+                int position = 0;
+                bool isBroken = false;
+
+                if (list.Count == 0)
                 {
-                    sequence.Add(input[i]);
+                    for (int j = 0; j < sequence.Count; j++)
+                    {
+                        list.Add(sequence[j]);
+                    }
                 }
                 else
                 {
-                    for (int j = sequence.Count - 1; j >= 0; j--)
+                    for (int j = 0; j < sequence.Count; j++)
                     {
-                        if (sequence[j] < input[0])
+                        for (int k = 0; k < list.Count; k++)
                         {
-
+                            if (list[k] <= sequence[j])
+                            {
+                                rightMostElement = list[k];
+                                position = list.IndexOf(rightMostElement);
+                            }
+                            
                         }
+                        break;
+                    }
+
+                    list.InsertRange(position + 1, sequence);
+                }
+
+                int brokenElement = 0;
+                int breakPostion = 0;
+
+                for (int j = 1; j < list.Count; j++)
+                {
+                    if (list[j] < list[j - 1])
+                    {
+                        brokenElement = list[j];
+                        breakPostion = list.LastIndexOf(brokenElement);
+                        isBroken = true;
+                        break;
                     }
                 }
-            }//end for loop i
+
+                if (isBroken)
+                {
+                    for (int j = list.Count - 1; j >= breakPostion; j--)
+                    {
+                        list.RemoveAt(j);
+                    }
+                }
+            }
+
+            Console.WriteLine(string.Join(" ", list));
         }
     }
 }
