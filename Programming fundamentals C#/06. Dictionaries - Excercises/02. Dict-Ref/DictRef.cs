@@ -8,10 +8,12 @@ using System.Threading.Tasks;
 You will be given several input lines, in one of the following formats:
 •	{name} = {value}
 •	{name} = {secondName}
-The names will always be strings, and the values will always be integers. In case you are given a name and a value, you must store the given name and its value. 
+The names will always be strings, and the values will always be integers. In case you are given a name and a value, you must store the
+given name and its value. 
 If the name already EXISTS, you must CHANGE its value with the given one. In case you are given a name and a second name, you must store the given name with the 
 same value as the value of the second name.  If the given second name DOES NOT exist, you must IGNORE that input.
-When you receive the command “end”, you must print all entries with their value, by order of input, in the following format: {entry} === {value} */
+When you receive the command “end”, you must print all entries with their value, by order of input, in the following format: 
+{entry} === {value} */
 
 namespace _2.Dict_Ref
 {
