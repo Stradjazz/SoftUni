@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-
 using System.Text;
 using System.Threading.Tasks;
 
@@ -17,7 +16,7 @@ namespace _04.Re_Directory
         
         static void Main(string[] args)
         {
-            var inputFiles = Directory.GetFiles("input");
+            var inputContent = Directory.GetFiles("input");
 
             Directory.CreateDirectory("output");
             Directory.CreateDirectory("output/txts");
@@ -28,7 +27,7 @@ namespace _04.Re_Directory
             var pngFiles = new List<string>();
             var testFiles = new List<string>();
 
-            foreach (var file in inputFiles)
+            foreach (var file in inputContent)
             {
                 var fileInfo = new FileInfo(file);
                 var extension = fileInfo.Extension;
@@ -47,33 +46,33 @@ namespace _04.Re_Directory
                 }
             }
 
-            MovingTheFilesFiles(txtFiles, pngFiles, testFiles);
+            MovingTheFiles(txtFiles, pngFiles, testFiles);
         }
 
-        private static void MovingTheFilesFiles(List<string> txtFiles, List<string> pngFiles, List<string> testFiles)
+        private static void MovingTheFiles(List<string> txtFiles, List<string> pngFiles, List<string> testFiles)
         {
             foreach (var txtFile in txtFiles)
             {
                 var currentFile = new FileInfo(txtFile);
-                var txtFileAsString = currentFile.Name;
+                var fileAsString = currentFile.Name;
 
-                File.Move(txtFile, "output/txts/" + txtFileAsString);
+                File.Move(txtFile, "output/txts/" + fileAsString);
             }
 
             foreach (var pngFile in pngFiles)
             {
                 var currentFile = new FileInfo(pngFile);
-                var pngFileAsString = currentFile.Name;
+                var fileAsString = currentFile.Name;
 
-                File.Move(pngFile, "output/pngs/" + pngFileAsString);
+                File.Move(pngFile, "output/pngs/" + fileAsString);
             }
 
             foreach (var testFile in testFiles)
             {
                 var currentFile = new FileInfo(testFile);
-                var testFileAsString = currentFile.Name;
+                var fileAsString = currentFile.Name;
 
-                File.Move(testFile, "output/tests/" + testFileAsString);
+                File.Move(testFile, "output/tests/" + fileAsString);
 
             }
         }
