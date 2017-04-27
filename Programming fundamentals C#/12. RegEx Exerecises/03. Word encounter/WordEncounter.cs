@@ -49,7 +49,7 @@ namespace _03.Word_encounter
                             {
                                 count++;
                             }
-                        }
+                         }
                         if (count >= digit)
                         {
                             words.Add(word);
