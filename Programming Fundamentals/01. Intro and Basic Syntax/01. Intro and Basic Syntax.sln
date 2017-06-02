@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Greeting", "01. Greeting\01. Greeting.csproj", "{1F6CA99A-DC43-4657-9175-2031BD71F8EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Add Two Numbers", "02. Add Two Numbers\02. Add Two Numbers.csproj", "{E30658E5-2AB7-4074-9E66-81906AECDB0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Employee Data", "03. Employee Data\03. Employee Data.csproj", "{D66B5328-F512-4612-8C97-A0AA2D57B903}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F6CA99A-DC43-4657-9175-2031BD71F8EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6CA99A-DC43-4657-9175-2031BD71F8EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6CA99A-DC43-4657-9175-2031BD71F8EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6CA99A-DC43-4657-9175-2031BD71F8EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E30658E5-2AB7-4074-9E66-81906AECDB0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E30658E5-2AB7-4074-9E66-81906AECDB0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E30658E5-2AB7-4074-9E66-81906AECDB0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E30658E5-2AB7-4074-9E66-81906AECDB0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D66B5328-F512-4612-8C97-A0AA2D57B903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D66B5328-F512-4612-8C97-A0AA2D57B903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D66B5328-F512-4612-8C97-A0AA2D57B903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D66B5328-F512-4612-8C97-A0AA2D57B903}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
