@@ -23,7 +23,7 @@ namespace _03.Employee_Data
 
             Console.WriteLine($"Name: {name}");
             Console.WriteLine($"Age: {age}");
-            Console.WriteLine($"Employee ID: {employeeID.ToString("D8")}");
+            Console.WriteLine($"Employee ID: {employeeID:D8}");
             Console.WriteLine($"Salary: {salary:F2}");
 
         }
