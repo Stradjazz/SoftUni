@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01_Blank_Receipt
 {
-    class Program
+    class BlankReceipt
     {
         static void Main(string[] args)
         {
@@ -20,7 +20,7 @@ namespace _01_Blank_Receipt
         }
         static void PrintReceiptHeader()
         {
-            Console.WriteLine("CASH RECEIPT");
+            Console.WriteLine("CASH RECEIPT ");
             Console.WriteLine("------------------------------");
         }
         static void PrintReceiptBody()
