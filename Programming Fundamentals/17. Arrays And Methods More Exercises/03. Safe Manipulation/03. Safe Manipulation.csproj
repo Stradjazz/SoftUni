@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E09887D6-DA10-4EFE-A7AC-4CB5D53E547A}</ProjectGuid>
+    <ProjectGuid>{B2D5193B-F2A9-4F6D-B102-D46C4B2E579E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_07.Max_Sequence_of_Increasing_Elements</RootNamespace>
-    <AssemblyName>_07.Max_Sequence_of_Increasing_Elements</AssemblyName>
+    <RootNamespace>_03.Safe_Manipulation</RootNamespace>
+    <AssemblyName>_03.Safe_Manipulation</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MaxSequenceIncreasing.cs" />
+    <Compile Include="SafeManipulation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

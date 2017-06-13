@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _07.Max_Sequence_of_Increasing_Elements
+namespace _08.Upgraded_Matcher
 {
-    class Program
+    class UpgradedMatcher
     {
         static void Main(string[] args)
         {

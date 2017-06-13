@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E09887D6-DA10-4EFE-A7AC-4CB5D53E547A}</ProjectGuid>
+    <ProjectGuid>{04E4A752-058E-44B8-B76F-B6A94C9BE8AB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_07.Max_Sequence_of_Increasing_Elements</RootNamespace>
-    <AssemblyName>_07.Max_Sequence_of_Increasing_Elements</AssemblyName>
+    <RootNamespace>_09.Index_of_Letters</RootNamespace>
+    <AssemblyName>_09.Index_of_Letters</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MaxSequenceIncreasing.cs" />
+    <Compile Include="IndexOfLetters.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
