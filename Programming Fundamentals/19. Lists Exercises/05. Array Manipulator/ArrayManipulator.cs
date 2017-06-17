@@ -47,7 +47,7 @@ namespace _05.Array_Manipulator
                         nums.RemoveAt(index);
                         break;
                     case "shift":
-                        int positions = int.Parse(tokens[1]);
+                        int positions = int.Parse(tokens[1]) % nums.Count;
                         ShiftingLeft(nums, positions);
                         break;
                     case "sumPairs":
