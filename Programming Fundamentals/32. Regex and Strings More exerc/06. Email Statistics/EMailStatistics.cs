@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace _06.Email_Statistics
 {
-    class Program
+    class EMailStatistics
     {
         static void Main(string[] args)
         {

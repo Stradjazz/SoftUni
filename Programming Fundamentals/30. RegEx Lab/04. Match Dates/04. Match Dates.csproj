@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E69DFA50-488C-432E-8963-7EB6D6A72CE9}</ProjectGuid>
+    <ProjectGuid>{D925FC60-29A4-4BCE-9EDE-0B4CC5D6360D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_06.Email_Statistics</RootNamespace>
-    <AssemblyName>_06.Email_Statistics</AssemblyName>
+    <RootNamespace>_04.Match_Dates</RootNamespace>
+    <AssemblyName>_04.Match_Dates</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EMailStatistics.cs" />
+    <Compile Include="MatchDates.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

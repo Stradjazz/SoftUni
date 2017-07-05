@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _03.Karate_Strings
 {
-    class Program
+    class KarateStrings
     {
         static void Main(string[] args)
         {

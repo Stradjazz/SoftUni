@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _07.Hideout
 {
-    class Program
+    class Hideout
     {
         static void Main(string[] args)
         {
