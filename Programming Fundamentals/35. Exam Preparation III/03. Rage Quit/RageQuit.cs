@@ -15,7 +15,7 @@ namespace _03.Rage_Quit
             var regex = new Regex(pattern);
 
             var inputText = Console.ReadLine();
-            var rageQuit = new StringBuilder();
+            var rageMessage = new StringBuilder();
             
             var matches = Regex.Matches(inputText, pattern).Cast<Match>().ToArray();
 
@@ -26,16 +26,16 @@ namespace _03.Rage_Quit
                 
                 for (int i = 0; i < multiplyer; i++)
                 {
-                    rageQuit.Append(symbols);
+                    rageMessage.Append(symbols);
                 }
             }
 
             List<char> uniqueSymbols = new List<char>();
-            uniqueSymbols.AddRange(rageQuit.ToString().ToCharArray());
+            uniqueSymbols.AddRange(rageMessage.ToString().ToCharArray());
             uniqueSymbols = uniqueSymbols.Distinct().ToList();
 
             Console.WriteLine($"Unique symbols used: {uniqueSymbols.Count}");
-            Console.WriteLine(rageQuit);
+            Console.WriteLine(rageMessage);
         }
     }
 }
