@@ -1,0 +1,47 @@
+1.	Sum Digits
+Write a function which will be given a single number. Your task is to find the sum of its digits.
+
+2.	Chars to String
+Write a function which receives 3 parameters. Each parameter is a single character. Combine all the characters into one string and print it on the console.
+
+3.	Town Info
+You will be given 3 parameters. The first parameter will be the name of the town (string), the second – the population (number) and the third the area (number). Print the result in the following format:
+"Town {town name} has population of {population} and area {area} square km."
+
+4.	Convert Meters to Kilometres
+You will be given a number that will be distance in meters. Write a program that converts meters to kilometers formatted to the second decimal point.
+
+5.	Pounds to Dollars
+Write a function that converts British pounds to dollars formatted to 3th decimal point. 
+•	1 British Pound = 1.31 Dollars
+
+6.	Reversed Chars
+Write a program that takes 3 parameters (characters) and prints them in reversed order with a space between them.
+
+7.	Lower or Upper
+Write a function that prints whether a given character is upper-case or lower-case.
+
+8.	*Calculator
+Write a function that receives 3 parameters: a number, an operator (string) and another number. Print the result of the calculation on the console formatted to the second decimal point 
+
+9.	*Gladiator Expenses
+As a gladiator, Peter has to repair his broken equipment when he loses a fight. His equipment consists of helmet, sword, shield and armour. You will receive the Peter`s lost fights count. 
+•	Every second lost game, his helmet is broken.
+•	Every third lost game, his sword is broken.
+•	When both his sword and helmet are broken in the same lost fight, his shield also brakes.
+•	Every second time, when his shield brakes, his armour also needs to be repaired. 
+You will receive the price of each item in his equipment. Calculate his expenses for the year for renewing his equipment. 
+Input / Constraints
+You will receive 5 parameters to your function:
+•	First parameter – lost fights count – integer in the range [0, 1000].
+•	Second parameter – helmet price - floating point number in range [0, 1000]. 
+•	Third parameter – sword price - floating point number in range [0, 1000]. 
+•	Fourth parameter – shield price - floating point number in range [0, 1000]. 
+•	Fifth parameter – armor price - floating point number in range [0, 1000]. 
+Output
+•	As output you must print Peter`s total expenses for new equipment: "Gladiator expenses: {expenses} aureus"
+•	Allowed working time / memory: 100ms / 16MB.
+
+
+
+
